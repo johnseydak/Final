@@ -1,12 +1,13 @@
 .hero {
     width: 1280px;
     height: 500px;
-    background-image: $overlay, url(../images/home-hero.jpg);
+    background-image: $overlay, url(../images/hero/home-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0 auto;
     padding-top: 20px;
+    display:flex;
 
        nav {
         width: 980px;
@@ -148,7 +149,7 @@ div {
 }
 
 .home-hero-image {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/home-hero.jpeg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/home-hero.jpg);
 }
 
 .about-hero-image {
