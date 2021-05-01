@@ -1,1 +1,0 @@
-var homeContent="",aboutContent="",aboutContent="",aboutContent="",aboutContent="";function getPageContent(pageId){$("#app").html(eval(pageId))}export{getPageContent};

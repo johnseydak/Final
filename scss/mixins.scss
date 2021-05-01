@@ -1,0 +1,19 @@
+@mixin center($elementWidth, $elementMargin: 0 auto) {
+    max-width:$elementWidth;
+    margin:$elementMargin;
+
+}
+
+@mixin siteButton ($btnPadding: 10px, $btnRadius: 20px, $btnBackground: #EE4367 ){
+    padding:$btnPadding;
+    border-radius: $btnRadius;
+    background-color: $btnBackground;
+}
+// to use mixins, you have to use @include nameofmixinhere();
+//in the example .scss file, there was a class like this
+//.header {
+    //@include center(981px, 20px auto 0 auto);
+//}
+//this follows the format of the mixin center(width, margin)
+//it can also just use width or the margin or modify as needed and it will override
+//WEEK 7 Left off at 58 minutes in.
