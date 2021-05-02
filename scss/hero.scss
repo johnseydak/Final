@@ -1,5 +1,5 @@
 .hero {
-    width: 1280px;
+    max-width: 1280px;
     height: 500px;
     background-image: url(../images/hero/home-hero.jpg);
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     background-position: center;
     margin: 0 auto;
     padding-top: 20px;
-    display:flex;
+    display:block;
     font-family: Arial;
 
        nav {
@@ -36,7 +36,7 @@
     
             div {
                 &.pipe {
-                    color: $site-blue;
+                    color: #EE4367;
                     font-size: 20px;
                 }
                 //margin: auto;
@@ -44,7 +44,7 @@
                     font-family: "GillSans";
                     font-size: 15px;
                     text-decoration: none;
-                    color: $white;
+                    color: white;
                     margin: auto;
                     text-transform: lowercase;
                 }
@@ -62,12 +62,16 @@
         padding-top: 80px;
 
     }
+    .smallbanner {
+        color:white;
+        text-align:center;
+    }
     .lorem {
          text-align: center;
          color: white;
     }
     .readmore {
-         background-color: $site-blue;
+         background-color: #EE4367;
          padding: 15px 30px;
          //border-radius: 20px;
          width: 150px;
@@ -89,7 +93,7 @@ nav {
     padding-top: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: $white solid 3px;
+    border-bottom: white solid 3px;
 }
 .logo {
     //background-color: red;
@@ -113,7 +117,7 @@ nav {
 }
 .div {
     &.pipe {
-        color: $site-pink;
+        color: #EE4367;
         font-size: 20px;
     }
     //margin: auto;
@@ -121,7 +125,7 @@ nav {
         font-family: "GillSans";
         font-size: 15px;
         text-decoration: none;
-        color: $white;
+        color: white;
         margin: auto;
         text-transform: lowercase;
     }
@@ -134,12 +138,16 @@ nav {
     padding-top: 80px;
 
 }
+.smallbanner {
+    color:white;
+    text-align:center;
+}
 .lorem {
      text-align: center;
      color: white;
 }
 .readmore {
-     background-color: $site-blue;
+     background-color: #EE4367;
      padding: 15px 30px;
      //border-radius: 20px;
      width: 150px;
@@ -168,12 +176,15 @@ nav {
     text-transform: capitalize;
 }
 
-.siteButton{
-    @include siteButton(10px 30px, 0px);
-}
+//.siteButton{
+    //@include siteButton(10px 30px, 0px);
+//}
 
 .home-hero-image {
     background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .about-hero-image {

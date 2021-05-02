@@ -1,0 +1,30 @@
+.about{
+    height:600px;
+    width:980px;
+    margin: 0 auto;
+    display:block;
+
+    .bannerimage{
+        width:980px;
+        height: 380px;
+        margin-top: 85px;
+        background-image: linear-gradient(to bottom, rgba(255,255,0,.5), rgba(255,255,0,.5)),url(../images/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .ourhistory{
+        font-size: 25px;
+        margin-top:-23px;
+    }
+    .border{
+        border-bottom: 3px solid black;
+        width:229px;
+        padding-top: 10px;
+    }
+    .aboutpara{
+        width:980px;
+        height:96px;
+        margin-top:30px;
+    }
+}

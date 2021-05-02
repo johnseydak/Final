@@ -1,0 +1,94 @@
+.gallery {
+    width:980px;
+    height:680px;
+    margin: 0 auto;
+    font-family: GillSans;
+    display: block;
+
+    .galleryheadline{
+        width:123px;
+        height:29px;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .galleryborder{
+        width:229px;
+        height:3px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 3px solid black;
+    }
+    .gallerysection {
+        height:513px;
+        width: 981px;
+        display:block;
+
+        .row1{
+            display:flex;
+            flex-direction: row;
+            width:981px;
+            height: 187px;
+            //justify-content: space-between;
+
+            .image1{
+                height:187px;
+                width:489px;
+                flex-direction: row;
+                background-image: linear-gradient(to bottom, rgba(255,209,64,.5), rgba(255,255,0,.5)),url(../images/gallery/1.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .image2{
+                height:187px;
+                width: 187px;
+                flex-direction: row;
+                margin-left: 20px;
+                background-image: linear-gradient(to bottom, rgba(238,67,103,.5), rgba(238,67,103,.5)),url(../images/gallery/2.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .image3{
+                height:187px;
+                width: 265px;
+                margin-left: 20px;
+                flex-direction: row;
+                background-image: linear-gradient(to bottom, rgba(8,173,105,.5), rgba(8,173,105,.5)),url(../images/gallery/3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+        .row2{
+            display: flex;
+            flex-direction: row;
+            width:981px;
+            height: 326px;
+            margin-top: 10px;
+            justify-content: space-between;
+
+            .image4{
+                height: 306px;
+                width:603px;
+                flex-direction: row;
+                background-image: linear-gradient(to bottom, rgba(84,13,110,.5), rgba(84,13,110,.5)),url(../images/gallery/4.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .image5{
+                height:306px;
+                width:355px;
+                //margin-left: 10px;
+                flex-direction: row;
+                background-image: linear-gradient(to bottom, rgba(59,206,171,.5), rgba(59,206,171,.5)),url(../images/gallery/5.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,34 @@
+.gallery1 {
+  width: 981px;
+  height: 700px;
+  display: block;
+  margin: 0 auto;
+}
+.gallery1 .galimage1 {
+  display: flex;
+  width: 981px;
+  height: 401px;
+  margin-top: 30px;
+  background-image: linear-gradient(to bottom, rgba(255, 209, 64, 0.5), rgba(255, 255, 0, 0.5)), url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery1 .galimage1 .gal1text1 {
+  position: absolute;
+  margin-top: 117px;
+  flex-direction: row;
+  font-size: 300px;
+  color: #FFD140;
+  position: absolute;
+  text-shadow: 1px 1px px black;
+}
+.gallery1 .galimage1 .gal1text2 {
+  position: absolute;
+  flex-direction: row;
+  font-size: 140px;
+  color: #FFD140;
+  text-shadow: 1px 1px 5px black;
+  margin-top: 220px;
+  margin-left: 220px;
+}
