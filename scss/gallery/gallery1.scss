@@ -1,6 +1,6 @@
 .gallery1 {
     width: 981px;
-    height:700px;
+    height:600px;
     display: block;
     margin: 0 auto;
 
@@ -21,7 +21,7 @@
             font-size: 300px;
             color: #FFD140;
             position: absolute;
-            text-shadow: 1px 1px px black;
+            text-shadow: 1px 1px 5px black;
         }
         .gal1text2 {
             position: absolute;
@@ -29,8 +29,25 @@
             font-size: 140px;
             color: #FFD140;
             text-shadow: 1px 1px 5px black;
-            margin-top:220px;
-            margin-left: 220px;
+            margin-top:265px;
+            margin-left: 240px;
+        }
+    }
+    .gal1text3{
+        width:980px;
+        height:133px;
+        display: flex;
+        .leftcol {
+            margin: 30px;
+            flex-direction: row;
+            width:491px;
+            height:133px;
+        }
+        .rightcol {
+            margin: 30px;
+            flex-direction: row;
+            width:451px;
+            height:133px;
         }
     }
 }

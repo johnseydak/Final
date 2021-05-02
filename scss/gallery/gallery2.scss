@@ -1,0 +1,53 @@
+.gallery2 {
+    width: 981px;
+    height:600px;
+    display: block;
+    margin: 0 auto;
+
+    .gal2image1 {
+        display:flex;
+        width: 981px;
+        height:401px;
+        margin-top: 30px;
+        background-image: linear-gradient(to bottom,rgba(238,67,103,.5), rgba(238,67,103,.5)),url(../images/gallery/2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .gal2text1 {
+            position: absolute;
+            margin-top:117px;
+            flex-direction: row;
+            font-size: 300px;
+            color: #EE4367;
+            position: absolute;
+            text-shadow: 1px 1px 5px black;
+        }
+        .gal2text2 {
+            position: absolute;
+            flex-direction:row;
+            font-size: 140px;
+            color: #EE4367;
+            text-shadow: 1px 1px 5px black;
+            margin-top:265px;
+            margin-left: 240px;
+        }
+    }
+    .gal2text3{
+        width:980px;
+        height:133px;
+        display: flex;
+        .leftcol {
+            margin: 30px;
+            flex-direction: row;
+            width:491px;
+            height:133px;
+        }
+        .rightcol {
+            margin: 30px;
+            flex-direction: row;
+            width:451px;
+            height:133px;
+        }
+    }
+}

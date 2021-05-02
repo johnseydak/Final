@@ -97,18 +97,74 @@ var blogContent = ``//paste homepage html inside quotations
 var contactContent = ``//paste homepage html inside quotations
 var gallery1Content = `<div class="gallery1">
 <div class="galimage1">
-<div class="gallery1">
-<div class="galimage1">
     <div class="gal1text1">1.</div>
     <div class="gal1text2">food festival</div>
-
 </div>
+<div class="gal1text3">
+    <div class="leftcol">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+    </div>
+    <div class="rightcol">
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+    </div>
 </div>
 </div>`
-var gallery2Content = ``
-var gallery3Content = ``
-var gallery4Content = ``
-var gallery5Content = ``
+var gallery2Content = `<div class="gallery2">
+<div class="gal2image1">
+    <div class="gal2text1">2.</div>
+    <div class="gal2text2">dee-jay</div>
+</div>
+<div class="gal2text3">
+    <div class="leftcol">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+    </div>
+    <div class="rightcol">
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+    </div>
+</div>
+</div>`
+var gallery3Content = `<div class="gallery3">
+<div class="gal3image1">
+    <div class="gal3text1">3.</div>
+    <div class="gal3text2">speech</div>
+</div>
+<div class="gal1text3">
+    <div class="leftcol">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+    </div>
+    <div class="rightcol">
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+    </div>
+</div>
+</div>`
+var gallery4Content = `<div class="gallery4">
+<div class="gal4image1">
+    <div class="gal4text1">4.</div>
+    <div class="gal4text2">open foodfest</div>
+</div>
+<div class="gal4text3">
+    <div class="leftcol">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+    </div>
+    <div class="rightcol">
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+    </div>
+</div>
+</div>`
+var gallery5Content = `<div class="gallery5">
+<div class="gal5image1">
+    <div class="gal5text1">5.</div>
+    <div class="gal5text2">international</div>
+</div>
+<div class="gal5text3">
+    <div class="leftcol">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+    </div>
+    <div class="rightcol">
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+    </div>
+</div>
+</div>`
 var blog1Content = ``
 var blog2Content = ``
 var blog3Content = ``

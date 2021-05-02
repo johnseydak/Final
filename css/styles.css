@@ -762,7 +762,7 @@ footer .copyright {
 
 .gallery1 {
   width: 981px;
-  height: 700px;
+  height: 600px;
   display: block;
   margin: 0 auto;
 }
@@ -783,7 +783,7 @@ footer .copyright {
   font-size: 300px;
   color: #FFD140;
   position: absolute;
-  text-shadow: 1px 1px px black;
+  text-shadow: 1px 1px 5px black;
 }
 .gallery1 .galimage1 .gal1text2 {
   position: absolute;
@@ -791,6 +791,231 @@ footer .copyright {
   font-size: 140px;
   color: #FFD140;
   text-shadow: 1px 1px 5px black;
-  margin-top: 250px;
-  margin-left: 220px;
+  margin-top: 265px;
+  margin-left: 240px;
+}
+.gallery1 .gal1text3 {
+  width: 980px;
+  height: 133px;
+  display: flex;
+}
+.gallery1 .gal1text3 .leftcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 491px;
+  height: 133px;
+}
+.gallery1 .gal1text3 .rightcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 451px;
+  height: 133px;
+}
+
+.gallery2 {
+  width: 981px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+.gallery2 .gal2image1 {
+  display: flex;
+  width: 981px;
+  height: 401px;
+  margin-top: 30px;
+  background-image: linear-gradient(to bottom, rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)), url(../images/gallery/2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery2 .gal2image1 .gal2text1 {
+  position: absolute;
+  margin-top: 117px;
+  flex-direction: row;
+  font-size: 300px;
+  color: #EE4367;
+  position: absolute;
+  text-shadow: 1px 1px 5px black;
+}
+.gallery2 .gal2image1 .gal2text2 {
+  position: absolute;
+  flex-direction: row;
+  font-size: 140px;
+  color: #EE4367;
+  text-shadow: 1px 1px 5px black;
+  margin-top: 265px;
+  margin-left: 240px;
+}
+.gallery2 .gal2text3 {
+  width: 980px;
+  height: 133px;
+  display: flex;
+}
+.gallery2 .gal2text3 .leftcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 491px;
+  height: 133px;
+}
+.gallery2 .gal2text3 .rightcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 451px;
+  height: 133px;
+}
+
+.gallery3 {
+  width: 981px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+.gallery3 .gal3image1 {
+  display: flex;
+  width: 981px;
+  height: 401px;
+  margin-top: 30px;
+  background-image: linear-gradient(to bottom, rgba(8, 173, 105, 0.5), rgba(8, 173, 105, 0.5)), url(../images/gallery/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery3 .gal3image1 .gal3text1 {
+  position: absolute;
+  margin-top: 117px;
+  flex-direction: row;
+  font-size: 300px;
+  color: #08AD69;
+  position: absolute;
+  text-shadow: 1px 1px 5px black;
+}
+.gallery3 .gal3image1 .gal3text2 {
+  position: absolute;
+  flex-direction: row;
+  font-size: 140px;
+  color: #08AD69;
+  text-shadow: 1px 1px 5px black;
+  margin-top: 265px;
+  margin-left: 240px;
+}
+.gallery3 .gal3text3 {
+  width: 980px;
+  height: 133px;
+  display: flex;
+}
+.gallery3 .gal3text3 .leftcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 491px;
+  height: 133px;
+}
+.gallery3 .gal3text3 .rightcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 451px;
+  height: 133px;
+}
+
+.gallery4 {
+  width: 981px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+.gallery4 .gal4image1 {
+  display: flex;
+  width: 981px;
+  height: 401px;
+  margin-top: 30px;
+  background-image: linear-gradient(to bottom, rgba(84, 13, 110, 0.5), rgba(84, 13, 110, 0.5)), url(../images/gallery/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery4 .gal4image1 .gal4text1 {
+  position: absolute;
+  margin-top: 117px;
+  flex-direction: row;
+  font-size: 300px;
+  color: #540D6E;
+  position: absolute;
+  text-shadow: 1px 1px 5px black;
+}
+.gallery4 .gal4image1 .gal4text2 {
+  position: absolute;
+  flex-direction: row;
+  font-size: 140px;
+  color: #540D6E;
+  text-shadow: 1px 1px 5px black;
+  margin-top: 265px;
+  margin-left: 240px;
+}
+.gallery4 .gal4text3 {
+  width: 980px;
+  height: 133px;
+  display: flex;
+}
+.gallery4 .gal4text3 .leftcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 491px;
+  height: 133px;
+}
+.gallery4 .gal4text3 .rightcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 451px;
+  height: 133px;
+}
+
+.gallery5 {
+  width: 981px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+.gallery5 .gal5image1 {
+  display: flex;
+  width: 981px;
+  height: 401px;
+  margin-top: 30px;
+  background-image: linear-gradient(to bottom, rgba(59, 206, 171, 0.5), rgba(59, 206, 171, 0.5)), url(../images/gallery/5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery5 .gal5image1 .gal5text1 {
+  position: absolute;
+  margin-top: 117px;
+  flex-direction: row;
+  font-size: 300px;
+  color: #3BCEAB;
+  position: absolute;
+  text-shadow: 1px 1px 5px black;
+}
+.gallery5 .gal5image1 .gal5text2 {
+  position: absolute;
+  flex-direction: row;
+  font-size: 140px;
+  color: #3BCEAB;
+  text-shadow: 1px 1px 5px black;
+  margin-top: 268px;
+  margin-left: 240px;
+}
+.gallery5 .gal5text3 {
+  width: 980px;
+  height: 133px;
+  display: flex;
+}
+.gallery5 .gal5text3 .leftcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 491px;
+  height: 133px;
+}
+.gallery5 .gal5text3 .rightcol {
+  margin: 30px;
+  flex-direction: row;
+  width: 451px;
+  height: 133px;
 }
