@@ -1,55 +1,45 @@
 .hero {
     width: 1280px;
     height: 500px;
-    background-image: $overlay, url(../images/home-hero.jpg);
+    background-image: url(../images/hero/home-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0 auto;
     padding-top: 20px;
-    //vertical-align: middle;
-    display: block;
+    display:flex;
+    font-family: Arial;
 
-        //.nav {
-
-            //.logo {
-
-            //}
-            //.links {
-                //font-family: "GillSans";
-            //}
-
-       //}
        nav {
-        width: 1280px;
+        width: 980px;
         height: 60px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        //padding-top: 30px;
+        padding-top: 30px;
         font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-       
-            .logo {
-                //background-color: red;
-                width: 92px;
-                height: 42px;
-                align-self: center;
-            }
-            .links {
-                width: 400px;
-                height: 42px;
-                font-family: GillSans;
-                align-self: center;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+
+        .logo {
+            //background-color: red;
+            width: 92px;
+            height: 42px;
+            align-self: center;
+        }
+        .links {
+            width: 400px;
+            height: 42px;
+            font-family: GillSans;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
     
-                div {
-                    &.pipe {
-                        color: $site-blue;
-                        font-size: 20px;
+            div {
+                &.pipe {
+                    color: $site-blue;
+                    font-size: 20px;
                 }
+                //margin: auto;
                 a {
                     font-family: "GillSans";
                     font-size: 15px;
@@ -66,14 +56,11 @@
     }
 
     .bannertext{
-        width:1280px;
-        //height: 80px;
         text-align: center;
         font-size: 50px;
         color: white;
         padding-top: 80px;
-        display:block;
-        text-align:center;
+
     }
     .lorem {
          text-align: center;
@@ -90,15 +77,16 @@
          top: 50px;
          color:white;
          margin: 0 auto;
-     }
+    }
 
 }
 nav {
     height: 60px;
+    width:980px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    //padding-top: 30px;
+    padding-top: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: $white solid 3px;
@@ -123,9 +111,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-div {
+.div {
     &.pipe {
-        color: $site-blue;
+        color: $site-pink;
         font-size: 20px;
     }
     //margin: auto;
@@ -137,6 +125,30 @@ div {
         margin: auto;
         text-transform: lowercase;
     }
+}
+
+.bannertext{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 80px;
+
+}
+.lorem {
+     text-align: center;
+     color: white;
+}
+.readmore {
+     background-color: $site-blue;
+     padding: 15px 30px;
+     //border-radius: 20px;
+     width: 150px;
+     //position:relative;
+     text-align: center;
+     left:565px;
+     top: 50px;
+     color:white;
+     margin: 0 auto;
 }
 
 .hero-content{
@@ -156,8 +168,12 @@ div {
     text-transform: capitalize;
 }
 
+.siteButton{
+    @include siteButton(10px 30px, 0px);
+}
+
 .home-hero-image {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/home-hero.jpeg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/home-hero.jpg);
 }
 
 .about-hero-image {
