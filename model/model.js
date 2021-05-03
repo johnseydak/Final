@@ -93,7 +93,69 @@ var galleryContent = `<div class="gallery">
     </div>
 </div>
 </div>`
-var blogContent = ``//paste homepage html inside quotations
+var blogContent = `<div class="blog">
+<div class="blogheadline">BLOG:</div>
+<div class="blogheadborder"></div>
+<div class="blogcol1">
+    <div class="jun">
+        <div class="box1">
+            <div class="date6">06</div>
+            <div class="month6">JUN</div>
+        </div>
+        <div class="box1-1">
+            <div class="pic1"></div>
+            <div class="boxpara1">Sed et persipiatis unde omnis iste natus</div>
+            <div class="boxpara2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </div>
+        </div>
+    </div>
+    <div class="aug">
+        <div class="box2">
+            <div class="date7">30</div>
+            <div class="month7">AUG</div>
+        </div>
+        <div class="box2-1">
+            <div class="pic2"></div>
+            <div class="boxpara3">Sed et persipiatis unde omnis iste natus</div>
+            <div class="boxpara4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </div>
+        </div>
+    </div>
+    <div class="dec">
+        <div class="box3">
+            <div class="date8">23</div>
+            <div class="month8">DEC</div>
+        </div>
+        <div class="box3-1">
+            <div class="pic3"></div>
+            <div class="boxpara5">Sed et persipiatis unde omnis iste natus</div>
+            <div class="boxpara6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </div>
+        </div>
+    </div>
+</div>
+<div class="blogcol2">
+    <div class="jul">
+        <div class="box4">
+            <div class="date9">30</div>
+            <div class="month9">JUL</div>
+        </div>
+        <div class="box4-1">
+            <div class="pic4"></div>
+            <div class="boxpara7">Sed et persipiatis unde omnis iste natus</div>
+            <div class="boxpara8">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </div>
+        </div>
+    </div>
+    <div class="nov">
+        <div class="box5">
+            <div class="date10">23</div>
+            <div class="month10">NOV</div>
+        </div>
+        <div class="box5-1">
+            <div class="pic5"></div>
+            <div class="boxpara9">Sed et persipiatis unde omnis iste natus</div>
+            <div class="boxpara10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </div>
+        </div>
+    </div>
+</div>
+</div>`
 var contactContent = ``//paste homepage html inside quotations
 var gallery1Content = `<div class="gallery1">
 <div class="galimage1">
