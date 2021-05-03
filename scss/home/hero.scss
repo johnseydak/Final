@@ -180,3 +180,65 @@ div {
 .contact-hero-image{
     background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/contact-hero.jpg);
 }
+
+@media only screen and (max-width: 800px){
+    .hero{
+        max-width: 100vw;
+
+        nav{
+            max-width: 80vw;
+
+            .logo {
+                //background-color: red;
+                width: 92px;
+                height: 42px;
+                align-self: center;
+            }
+            .links {
+                max-width: 80vw;
+                height: 42px;
+                font-family: GillSans;
+                align-self: center;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                div {
+                    &.pipe {
+                        color: $site-pink;
+                        font-size: 20px;
+                }
+                a {
+                    font-family: GillSans;
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: $white;
+                    margin: auto;
+                    text-transform: lowercase;
+                }
+            }
+        }
+        .bannertext{
+            max-width:100vw;
+            margin: 0 auto;
+            height: 80px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            padding-top: 80px;
+            display:flex;
+            font-family:serif;
+        }
+        .smallbanner {
+            text-align: center;
+            color:#EE4367;
+            margin-top: 10px;
+        }
+        .lorem {
+            margin-top: 30px;
+            text-align: center;
+            color: white;
+        }
+    }
+}
+}

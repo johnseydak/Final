@@ -28,3 +28,35 @@
         margin-top:30px;
     }
 }
+@media only screen and (max-width: 800px) { 
+    .about{
+        max-width: 80vw;
+        .bannerimage{
+            max-width:100vw;
+            height: 380px;
+            margin-top: 85px;
+            background-image: linear-gradient(to bottom, rgba(255,255,0,.5), rgba(255,255,0,.5)),url(../images/about.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .ourhistory{
+            font-size: 25px;
+            margin-top:-23px;
+            text-align: center;
+        }
+        .border{
+            border-bottom: 3px solid black;
+            width:229px;
+            padding-top: 10px;
+            margin: auto;
+        }
+        .aboutpara{
+            text-align: center;
+            max-width:80vw;
+            height:96px;
+            margin-top:30px;
+            margin: auto;
+        }
+    }
+}
