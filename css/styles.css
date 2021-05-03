@@ -70,10 +70,9 @@ p {
 .upcomingevents {
   background-color: #540D6E;
   font-family: GillSans;
-  display: flex;
-  flex-direction: row;
+  display: block;
   width: 1280px;
-  height: 320px;
+  height: 91px;
   margin: 0 auto;
   color: #FFF;
   border-bottom: 3px solid white;
@@ -82,30 +81,46 @@ p {
   padding-top: 45px;
   padding-left: 15px;
   font-size: 25px;
-  width: 392px;
-  height: 201px;
+  width: 267px;
+  height: 87px;
+  background-color: #540D6E;
 }
-.upcomingevents .headlineborder {
+.upcomingevents .headlineborderbox {
+  height: 5px;
+  width: 1280px;
+  background-color: #540D6E;
+}
+.upcomingevents .headlineborderbox .headlineborder {
   border-bottom: 3px solid white;
-  width: 392px;
-  height: 3px;
+  width: 407px;
+  height: 4px;
   margin-left: 15px;
-  margin-top: 150px;
+  background-color: #540D6E;
 }
-.upcomingevents .upcomingevents1 {
-  width: 238px;
-  height: 119px;
+
+.allupcomingevents {
   display: flex;
-  margin-top: 25px;
+  margin: 0 auto;
+  width: 1280px;
+  height: 229px;
+  padding-bottom: 25px;
+}
+.allupcomingevents .upcomingevents1 {
+  padding-left: 15px;
+  padding-top: 25px;
+  width: 256px;
+  height: 229px;
+  display: flex;
   flex-direction: row;
+  background-color: #540D6E;
 }
-.upcomingevents .upcomingevents1 .dateblock1 {
+.allupcomingevents .upcomingevents1 .dateblock1 {
   width: 80px;
   height: 119px;
   margin-right: 5px;
   margin-bottom: 59px;
 }
-.upcomingevents .upcomingevents1 .dateblock1 .date1 {
+.allupcomingevents .upcomingevents1 .dateblock1 .date1 {
   width: 60px;
   height: 60px;
   background-color: #EE4367;
@@ -113,40 +128,41 @@ p {
   text-align: center;
   padding-top: 8px;
 }
-.upcomingevents .upcomingevents1 .dateblock1 .date1 .line1 {
+.allupcomingevents .upcomingevents1 .dateblock1 .date1 .line1 {
   font-size: 22px;
 }
-.upcomingevents .upcomingevents1 .dateblock1 .date1 .line2 {
+.allupcomingevents .upcomingevents1 .dateblock1 .date1 .line2 {
   font-size: 12px;
 }
-.upcomingevents .upcomingevents1 .text1 {
+.allupcomingevents .upcomingevents1 .text1 {
   font-size: 15px;
   color: #FFF;
   width: 158px;
   height: 119px;
 }
-.upcomingevents .upcomingevents1 .text1 .blurb1 {
+.allupcomingevents .upcomingevents1 .text1 .blurb1 {
   color: #FFF;
   font-size: 15px;
 }
-.upcomingevents .upcomingevents1 .text1 .blurb2 {
+.allupcomingevents .upcomingevents1 .text1 .blurb2 {
   font-size: 13px;
   color: #EE4367;
 }
-.upcomingevents .upcomingevents2 {
-  width: 238px;
-  height: 119px;
+.allupcomingevents .upcomingevents2 {
+  padding-top: 25px;
+  width: 256px;
+  height: 229px;
   display: flex;
-  margin-top: 25px;
   flex-direction: row;
+  background-color: #540D6E;
 }
-.upcomingevents .upcomingevents2 .dateblock2 {
+.allupcomingevents .upcomingevents2 .dateblock2 {
   width: 80px;
   height: 119px;
   margin-right: 5px;
   margin-bottom: 59px;
 }
-.upcomingevents .upcomingevents2 .dateblock2 .date2 {
+.allupcomingevents .upcomingevents2 .dateblock2 .date2 {
   width: 60px;
   height: 60px;
   background-color: #EE4367;
@@ -154,40 +170,41 @@ p {
   text-align: center;
   padding-top: 8px;
 }
-.upcomingevents .upcomingevents2 .dateblock2 .date2 .line3 {
+.allupcomingevents .upcomingevents2 .dateblock2 .date2 .line3 {
   font-size: 22px;
   width: 60px;
 }
-.upcomingevents .upcomingevents2 .dateblock2 .date2 .line4 {
+.allupcomingevents .upcomingevents2 .dateblock2 .date2 .line4 {
   font-size: 12px;
 }
-.upcomingevents .upcomingevents2 .text2 {
+.allupcomingevents .upcomingevents2 .text2 {
   font-size: 15px;
   color: #FFF;
   width: 158px;
   height: 119px;
 }
-.upcomingevents .upcomingevents2 .text2 .blurb3 {
+.allupcomingevents .upcomingevents2 .text2 .blurb3 {
   color: #FFF;
   font-size: 15px;
 }
-.upcomingevents .upcomingevents2 .text2 .blurb4 {
+.allupcomingevents .upcomingevents2 .text2 .blurb4 {
   font-size: 13px;
   color: #EE4367;
 }
-.upcomingevents .upcomingevents3 {
-  width: 238px;
-  height: 119px;
+.allupcomingevents .upcomingevents3 {
+  padding-top: 25px;
+  width: 256px;
+  height: 229px;
   display: flex;
-  margin-top: 25px;
+  background-color: #540D6E;
 }
-.upcomingevents .upcomingevents3 .dateblock3 {
+.allupcomingevents .upcomingevents3 .dateblock3 {
   width: 80px;
   height: 119px;
   margin-right: 5px;
   margin-bottom: 59px;
 }
-.upcomingevents .upcomingevents3 .dateblock3 .date3 {
+.allupcomingevents .upcomingevents3 .dateblock3 .date3 {
   width: 60px;
   height: 60px;
   background-color: #EE4367;
@@ -195,39 +212,40 @@ p {
   text-align: center;
   padding-top: 8px;
 }
-.upcomingevents .upcomingevents3 .dateblock3 .date3 .line5 {
+.allupcomingevents .upcomingevents3 .dateblock3 .date3 .line5 {
   font-size: 22px;
 }
-.upcomingevents .upcomingevents3 .dateblock3 .date3 .line6 {
+.allupcomingevents .upcomingevents3 .dateblock3 .date3 .line6 {
   font-size: 12px;
 }
-.upcomingevents .upcomingevents3 .text3 {
+.allupcomingevents .upcomingevents3 .text3 {
   font-size: 15px;
   color: #FFF;
   width: 158px;
   height: 119px;
 }
-.upcomingevents .upcomingevents3 .text3 .blurb5 {
+.allupcomingevents .upcomingevents3 .text3 .blurb5 {
   color: #FFF;
   font-size: 15px;
 }
-.upcomingevents .upcomingevents3 .text3 .blurb6 {
+.allupcomingevents .upcomingevents3 .text3 .blurb6 {
   font-size: 13px;
   color: #EE4367;
 }
-.upcomingevents .upcomingevents4 {
-  width: 238px;
-  height: 119px;
+.allupcomingevents .upcomingevents4 {
+  padding-top: 25px;
+  width: 256px;
+  height: 229px;
   display: flex;
-  margin-top: 25px;
+  background-color: #540D6E;
 }
-.upcomingevents .upcomingevents4 .dateblock4 {
+.allupcomingevents .upcomingevents4 .dateblock4 {
   width: 80px;
   height: 119px;
   margin-right: 5px;
   margin-bottom: 59px;
 }
-.upcomingevents .upcomingevents4 .dateblock4 .date4 {
+.allupcomingevents .upcomingevents4 .dateblock4 .date4 {
   width: 60px;
   height: 60px;
   background-color: #EE4367;
@@ -235,39 +253,40 @@ p {
   text-align: center;
   padding-top: 8px;
 }
-.upcomingevents .upcomingevents4 .dateblock4 .date4 .line7 {
+.allupcomingevents .upcomingevents4 .dateblock4 .date4 .line7 {
   font-size: 22px;
 }
-.upcomingevents .upcomingevents4 .dateblock4 .date4 .line8 {
+.allupcomingevents .upcomingevents4 .dateblock4 .date4 .line8 {
   font-size: 12px;
 }
-.upcomingevents .upcomingevents4 .text4 {
+.allupcomingevents .upcomingevents4 .text4 {
   font-size: 15px;
   color: #FFF;
   width: 158px;
   height: 119px;
 }
-.upcomingevents .upcomingevents4 .text4 .blurb7 {
+.allupcomingevents .upcomingevents4 .text4 .blurb7 {
   color: #FFF;
   font-size: 15px;
 }
-.upcomingevents .upcomingevents4 .text4 .blurb8 {
+.allupcomingevents .upcomingevents4 .text4 .blurb8 {
   font-size: 13px;
   color: #EE4367;
 }
-.upcomingevents .upcomingevents5 {
-  width: 238px;
-  height: 119px;
+.allupcomingevents .upcomingevents5 {
+  padding-top: 25px;
+  width: 256px;
+  height: 229px;
   display: flex;
-  margin-top: 25px;
+  background-color: #540D6E;
 }
-.upcomingevents .upcomingevents5 .dateblock5 {
+.allupcomingevents .upcomingevents5 .dateblock5 {
   width: 80px;
   height: 119px;
   margin-right: 5px;
   margin-bottom: 59px;
 }
-.upcomingevents .upcomingevents5 .dateblock5 .date5 {
+.allupcomingevents .upcomingevents5 .dateblock5 .date5 {
   width: 60px;
   height: 60px;
   background-color: #EE4367;
@@ -275,23 +294,23 @@ p {
   text-align: center;
   padding-top: 8px;
 }
-.upcomingevents .upcomingevents5 .dateblock5 .date5 .line9 {
+.allupcomingevents .upcomingevents5 .dateblock5 .date5 .line9 {
   font-size: 22px;
 }
-.upcomingevents .upcomingevents5 .dateblock5 .date5 .line10 {
+.allupcomingevents .upcomingevents5 .dateblock5 .date5 .line10 {
   font-size: 12px;
 }
-.upcomingevents .upcomingevents5 .text5 {
+.allupcomingevents .upcomingevents5 .text5 {
   font-size: 15px;
   color: #FFF;
   width: 158px;
   height: 180px;
 }
-.upcomingevents .upcomingevents5 .text5 .blurb9 {
+.allupcomingevents .upcomingevents5 .text5 .blurb9 {
   color: #FFF;
   font-size: 15px;
 }
-.upcomingevents .upcomingevents5 .text5 .blurb10 {
+.allupcomingevents .upcomingevents5 .text5 .blurb10 {
   font-size: 13px;
   color: #EE4367;
 }

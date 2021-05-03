@@ -22,10 +22,9 @@
 .upcomingevents {
     background-color: #540D6E;
     font-family:GillSans;
-    display:flex;
-    flex-direction: row;
+    display:block;
     width:1280px;
-    height: 320px;
+    height: 91px;
     margin: 0 auto;
     color: #FFF;
     border-bottom: 3px solid white;
@@ -34,23 +33,39 @@
         padding-top: 45px;
         padding-left: 15px;
         font-size:25px;
-        //margin: auto;
-        width:392px;
-        height:201px;
+        width:267px;
+        height:87px;
+        background-color: #540D6E;
     }
-    .headlineborder{
-        border-bottom: 3px solid white;
-        width:392px;
-        height:3px;
-        margin-left: 15px;
-        margin-top: 150px;
+    .headlineborderbox{
+        height:5px;
+        width:1280px;
+        background-color: #540D6E;
+        .headlineborder{
+            border-bottom: 3px solid white;
+            width:407px;
+            height:4px;
+            margin-left: 15px;
+            background-color: #540D6E;
+        }
     }
+}
+.allupcomingevents{
+    display:flex;
+    margin: 0 auto;
+    width:1280px;
+    height: 229px;
+    padding-bottom: 25px;
+    
+
     .upcomingevents1{
-        width:238px;
-        height: 119px;
+        padding-left: 15px;
+        padding-top: 25px;
+        width:256px;
+        height: 229px;
         display:flex;
-        margin-top: 25px;
         flex-direction: row;
+        background-color: #540D6E;
         
 
         .dateblock1{
@@ -95,11 +110,12 @@
         
     }
     .upcomingevents2{
-        width:238px;
-        height: 119px;
+        padding-top: 25px;
+        width:256px;
+        height: 229px;
         display:flex;
-        margin-top: 25px;
         flex-direction: row;
+        background-color: #540D6E;
 
         .dateblock2{
             width:80px;
@@ -142,10 +158,11 @@
         }
     }
     .upcomingevents3{
-        width:238px;
-        height: 119px;
+        padding-top: 25px;
+        width:256px;
+        height: 229px;
         display:flex;
-        margin-top: 25px;
+        background-color: #540D6E;
 
         .dateblock3{
             width:80px;
@@ -186,10 +203,11 @@
         }
     }
     .upcomingevents4{
-        width:238px;
-        height: 119px;
+        padding-top: 25px;
+        width:256px;
+        height: 229px;
         display:flex;
-        margin-top: 25px;
+        background-color: #540D6E;
 
         .dateblock4{
             width:80px;
@@ -230,10 +248,11 @@
         }
     }
     .upcomingevents5{
-        width:238px;
-        height: 119px;
+        padding-top: 25px;
+        width:256px;
+        height: 229px;
         display:flex;
-        margin-top: 25px;
+        background-color: #540D6E;
 
         .dateblock5{
             width:80px;
@@ -256,7 +275,6 @@
                     font-size:12px;  
                 }
             }
-
         }
         .text5{
             font-size:15px;

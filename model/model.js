@@ -7,7 +7,11 @@ var homeContent = `<div class="home">
 </div>
 <div class="upcomingevents">
     <div class="upcomingheadline">UPCOMING EVENTS:</div>
-    <div class="headlineborder"></div>
+    <div class="headlineborderbox">
+        <div class="headlineborder"></div>
+    </div>
+</div>
+<div class="allupcomingevents">
     <div class="upcomingevents1">
         <div class="dateblock1">
             <div class="date1">
