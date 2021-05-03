@@ -28,24 +28,20 @@ p {
   src: url(fonts/Proxima_Nova_ScOsf_Extra_Condensed_Bold.ttf);
 }
 @font-face {
-  font-family: Gill;
-  src: url(fonts/GillSans.ttc);
+  font-family: PTSerif-Bold;
+  src: url(fonts/PTSerif-Bold.ttf);
 }
 @font-face {
-  font-family: Gill;
-  src: url(fonts/GillSans.ttc);
+  font-family: PTSerif-BoldItalic;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
 }
 @font-face {
-  font-family: Gill;
-  src: url(fonts/GillSans.ttc);
+  font-family: PTSerif-Italic;
+  src: url(fonts/PTSerif-Italic.ttf);
 }
 @font-face {
-  font-family: Gill;
-  src: url(fonts/GillSans.ttc);
-}
-@font-face {
-  font-family: Gill;
-  src: url(fonts/GillSans.ttc);
+  font-family: PTSerif-Regular;
+  src: url(fonts/PTSerif-Regular.ttf);
 }
 .homequote {
   width: 780px;
@@ -58,13 +54,14 @@ p {
 }
 .homequote .name {
   color: #EE4367;
-  font-family: PT Serif;
+  font-family: serif;
   font-size: 15px;
 }
 .homequote .position {
   margin-top: 5px;
   font-size: 10px;
   color: #A8A8A8;
+  font-family: serif;
 }
 
 .upcomingevents {
@@ -321,15 +318,17 @@ p {
   margin: 0 auto;
   padding-top: 20px;
   display: block;
+  font-family: GillSans;
 }
 .hero nav {
-  width: 1280px;
+  margin: 0 auto;
+  width: 980px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 .hero nav .logo {
   width: 92px;
@@ -350,7 +349,7 @@ p {
   font-size: 20px;
 }
 .hero nav .links div a {
-  font-family: "GillSans";
+  font-family: GillSans;
   font-size: 15px;
   text-decoration: none;
   color: #fff;
@@ -365,6 +364,7 @@ p {
   padding-top: 80px;
   display: block;
   text-align: center;
+  font-family: serif;
 }
 .hero .smallbanner {
   text-align: center;

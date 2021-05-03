@@ -4,16 +4,18 @@
     margin: 0 auto;
     padding-top: 20px;
     display: block;
+    font-family:GillSans;
 
        nav {
-        width: 1280px;
+        margin: 0 auto;
+        width: 980px;
         height: 60px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         //padding-top: 30px;
         font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial;
        
             .logo {
                 //background-color: red;
@@ -36,7 +38,7 @@
                         font-size: 20px;
                 }
                 a {
-                    font-family: "GillSans";
+                    font-family: GillSans;
                     font-size: 15px;
                     text-decoration: none;
                     color: $white;
@@ -59,6 +61,7 @@
         padding-top: 80px;
         display:block;
         text-align:center;
+        font-family:serif;
     }
     .smallbanner {
         text-align: center;
