@@ -227,11 +227,71 @@ var gallery5Content = `<div class="gallery5">
     </div>
 </div>
 </div>`
-var blog1Content = ``
-var blog2Content = ``
-var blog3Content = ``
-var blog4Content = ``
-var blog5Content = ``
+var blog1Content = `<div class="blog1">
+<div class="blog1img">
+    <div class="blog1calendar">
+        <div class="blog1date">06</div>
+        <div class="blog1month">JUN</div>
+    </div>
+</div>
+<div class="blog1header1">Header #1</div>
+<div class="blog1header1para1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </div>
+<div class="blog1header1para2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+<div class="blog1header2">Header #2</div>
+<div class="blog1header2para1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+</div>`
+var blog2Content = `<div class="blog2">
+<div class="blog1img">
+    <div class="blog1calendar">
+        <div class="blog1date">30</div>
+        <div class="blog1month">JUL</div>
+    </div>
+</div>
+<div class="blog1header1">Header #1</div>
+<div class="blog1header1para1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </div>
+<div class="blog1header1para2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+<div class="blog1header2">Header #2</div>
+<div class="blog1header2para1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+</div>`
+var blog3Content = `<div class="blog3">
+<div class="blog1img">
+    <div class="blog1calendar">
+        <div class="blog1date">30</div>
+        <div class="blog1month">AUG</div>
+    </div>
+</div>
+<div class="blog1header1">Header #1</div>
+<div class="blog1header1para1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </div>
+<div class="blog1header1para2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+<div class="blog1header2">Header #2</div>
+<div class="blog1header2para1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+</div>`
+var blog4Content = `<div class="blog4">
+<div class="blog1img">
+    <div class="blog1calendar">
+        <div class="blog1date">23</div>
+        <div class="blog1month">NOV</div>
+    </div>
+</div>
+<div class="blog1header1">Header #1</div>
+<div class="blog1header1para1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </div>
+<div class="blog1header1para2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+<div class="blog1header2">Header #2</div>
+<div class="blog1header2para1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+</div>`
+var blog5Content = `<div class="blog5">
+<div class="blog1img">
+    <div class="blog1calendar">
+        <div class="blog1date">23</div>
+        <div class="blog1month">DEC</div>
+    </div>
+</div>
+<div class="blog1header1">Header #1</div>
+<div class="blog1header1para1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </div>
+<div class="blog1header1para2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+<div class="blog1header2">Header #2</div>
+<div class="blog1header2para1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+</div>`
 function getPageContent(pageId) {
 $("#app").html(eval(pageId));
 } //this _private function is getting the page Id but export makes it public
