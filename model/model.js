@@ -160,7 +160,24 @@ var blogContent = `<div class="blog">
     </div>
 </div>
 </div>`
-var contactContent = ``//paste homepage html inside quotations
+var contactContent = `<div class="contact">
+<div class="contactheadline">CONTACT US:</div>
+<div class="contactborderbox">
+    <div class="contactborder"></div>
+</div>
+<div class="inputs">
+    <div class="column1">
+        <div class="yourname">Your name...</div>
+        <div class="emailaddress">Email Address...</div>
+        <div class="company">Company...</div>
+        <div class="message">Message...</div>
+    </div>
+    <div class="column2">
+        <div class="map"></div>
+    </div>
+</div>
+<div class="submit">SEND MESSAGE</div>
+</div>`
 var gallery1Content = `<div class="gallery1">
 <div class="galimage1">
     <div class="gal1text1">1.</div>
