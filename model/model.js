@@ -101,17 +101,19 @@ var blogContent = `<div class="blog">
 <div class="blogheadline">BLOG:</div>
 <div class="blogheadborder"></div>
 <div class="blogcol1">
-    <div class="jun">
-        <div class="box1">
-            <div class="date6">06</div>
-            <div class="month6">JUN</div>
+    <a id="blog2" href="#">
+        <div class="jun">
+            <div class="box1">
+                <div class="date6">06</div>
+                <div class="month6">JUN</div>
+            </div>
+            <div class="box1-1">
+                <div class="pic1"></div>
+                <div class="boxpara1">Sed et persipiatis unde omnis iste natus</div>
+                <div class="boxpara2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </div>
+            </div>
         </div>
-        <div class="box1-1">
-            <div class="pic1"></div>
-            <div class="boxpara1">Sed et persipiatis unde omnis iste natus</div>
-            <div class="boxpara2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </div>
-        </div>
-    </div>
+    </a>
     <div class="aug">
         <div class="box2">
             <div class="date7">30</div>
